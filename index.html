@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Barbara Aguilar - Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <section class="top-navbar">
+        <nav class="nav-primary navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <!--Marca-->
+                <a class="navbar-brand" href="#">Bárbara Aguilar Portfólio</a>
+                <!--Botão---->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--Itens da Navegação-->
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Sobre Mim</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Orçamento</a>
+                        </li>
+                        <!--Nav Dropdown-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Contato
+                            </a>
+                            <!--Itens Dropdown-->
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Linked In</a>
+                                <a class="dropdown-item" href="#">GitHub</a>
+                                <a class="dropdown-item" href="#">Code Pen</a>
+                                <a class="dropdown-item" href="#">Behance</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Caroussel -->
+    <section class="caroussel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="../bootstrap/src/assets/car-01.jpg" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../bootstrap/src/assets/car-02.jpg" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="../bootstrap/src/assets/car-03.jpg" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </section>
+    <!-- Responsive Image and Text -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-text">
+                <p class="title-section">Sobre Mim</p>
+            </div>
+            <div class="about-img">
+                <img src="../bootstrap/src/assets/002.png" alt="..." class="img-thumbnail">
+            </div>
+            <p class="about-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vitae necessitatibus
+                ea beatae! Eum natus aspernatur repellat quod perferendis vero quisquam voluptatum? Similique fugiat,
+                veniam esse dolor inventore blanditiis itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nisi sunt cumque earum commodi autem rem quisquam similique aliquam, fugiat tempora a illo ipsum numquam
+                consectetur atque amet quas tempore optio.</p>
+        </div>
+    </section>
+    <!-- Cards and Modal -->
+    <section id="portfolio" class="portifolio">
+        <div class="container">
+            <h2 class="servicos-title">Serviços</h2>
+            <p class="servicos-texto">Desenvolvimento front-end aliado a poderosas ferramentas e conceitos, essenciais
+                para um projeto completo e moderno.</p>
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="../bootstrap/src/assets/card1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">UX DESIGN</h5>
+                        <p class="card-text">UX é isso isso e aquilo e usamos dessa e dessa forma em seu projeto.
+                            Design de experiencia é isso isso e aquilo.</p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                        Acesse
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Signista - Projeto Final</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Projeto desenvolvido assim assim assado
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../bootstrap/src/assets/card2.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">RESPONSIVIDADE</h5>
+                        <p class="card-text">Responsividade pe isso isso e aquilo. Usamos dessa e dessa forma para
+                            alavancar seu projeto.</p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                        Acesse
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Site M de Maravilhosas</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Projeto desenvolvido assim assim assado
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../bootstrap/src/assets/card3.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">ACESSIBILIDADE</h5>
+                        <p class="card-text">Acessibilidade é isso isso e aquilo. Ela serve para isso isso e mais isso.
+                            Será importante em seu projeto para isso.</p>
+                    </div>
+                    <!-- Botão para acionar modal -->
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                        Acesse
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Site Mundo Gelado</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    Projeto desenvolvido assim assim assado
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-border">
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Forms -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-form">
+                <p class="title-section">Orçamento</p>
+            </div>
+            <form class="form-contact col-10" name="contact">
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Nome</label>
+                    <input type="name" class="form-control" name="name" id="exampleFormControlInput1"
+                        placeholder="your name">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput2">Email address</label>
+                    <input type="email" class="form-control" name="email" id="exampleFormControlInput2"
+                        placeholder="name@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlInput3">Telefone</label>
+                    <input type="phone" class="form-control" name="phone" id="exampleFormControlInput3"
+                        placeholder="your name">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea4">Mensagem</label>
+                    <textarea class="form-control" name="text" id="exampleFormControlTextarea4" rows="3"
+                        placeholder="type your text here"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section class="footer">
+        <nav id="nav-footer" class="navbar navbar-dark bg-dark">
+            <a id="nav-footer-link" class="nav-link" href="https://www.linkedin.com/in/barbara-aguilar/"><i
+                    class="fas fa-code"></i>
+                <p>codado com amor por Bárbara Aguilar</p>
+            </a>
+        </nav>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
