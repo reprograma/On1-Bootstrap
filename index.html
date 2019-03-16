@@ -48,10 +48,10 @@
                             </a>
                             <!--Itens Dropdown-->
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Linked In</a>
-                                <a class="dropdown-item" href="#">GitHub</a>
-                                <a class="dropdown-item" href="#">Code Pen</a>
-                                <a class="dropdown-item" href="#">Behance</a>
+                                <a class="dropdown-item" href="https://www.linkedin.com/in/barbara-aguilar/" target="_blank">Linked In</a>
+                                <a class="dropdown-item" href="https://github.com/barbara-aguilar" target="_blank">GitHub</a>
+                                <a class="dropdown-item" href="https://codepen.io/barbara-aguilar/" target="_blank">Code Pen</a>
+                                <a class="dropdown-item" href="https://learn.freecodecamp.org/" target="_blank">Free Code Camp</a>
                             </div>
                         </li>
                     </ul>
@@ -95,48 +95,55 @@
                 <p class="title-section">Sobre Mim</p>
             </div>
             <div class="about-img">
-                <img src="../bootstrap/src/assets/002.png" alt="..." class="img-thumbnail">
+                <img src="../bootstrap/src/assets/002.jpg" alt="..." class="img-thumbnail">
             </div>
-            <p class="about-texto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque vitae necessitatibus
-                ea beatae! Eum natus aspernatur repellat quod perferendis vero quisquam voluptatum? Similique fugiat,
-                veniam esse dolor inventore blanditiis itaque. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Nisi sunt cumque earum commodi autem rem quisquam similique aliquam, fugiat tempora a illo ipsum numquam
-                consectetur atque amet quas tempore optio.</p>
+            <p class="about-texto">Programadora front-end e designer, profundamente apaixonada por tecnologia. Migrei do
+                design gráfico para a área de desenvolvimento de uma forma muito natural, por a programação complementar
+                meus conhecimentos em UX/UI. Em 2018 iniciei o curso de desenvolvimento front-end na Reprograma, um
+                bootcamp tecnológico imersivo de tempo integral em São Paulo, onde fui uma das 30 alunas selecionadas
+                entre mais de 300 inscritas.
+
+                Estou há mais de 10 anos envolvida em projetos sociais, acredito na tecnologia e no design como uma
+                ferramenta poderosa para criar representações positivas, empoderadoras e transformar o mundo. Sou
+                entusiasta da cultura do-it-yourself (faça-você-mesma) e a aplico em diversas áreas de minha vida e do
+                meu aprendizado. Me interesso muito por projetos de educação inclusiva através da arte e da tecnologia.
+            </p>
         </div>
     </section>
     <!-- Cards and Modal -->
-    <section id="portfolio" class="portifolio">
+    <section id="portfolio" class="portfolio">
         <div class="container">
-            <h2 class="servicos-title">Serviços</h2>
-            <p class="servicos-texto">Desenvolvimento front-end aliado a poderosas ferramentas e conceitos, essenciais
-                para um projeto completo e moderno.</p>
+            <p class="title-section">Portfólio</p>
+            <p class="servicos-texto">Trabalhos e projetos desenvolvidos durante a {Reprograma}, entre agosto e dezembro de 2018. A reprograma tem a proposta de inserir mulheres na área da tecnologia e suas recolocações no mercado de trabalho através de um bootcamp tecnológico, imersivo e em tempo integral.  Durante 18 semanas tivemos contato com o universo da programação, aprendendo diversas linguagens, frameworks, bibliotecas e habilidades. Consta na grade de ensino UX, HTML5, CSS3, SASS, BOOTSTRAP, JAVASCRIPT, JQUERY e REACT.JS. Além do conteúdo teórico tivemos ao longo do curso diversos projetos práticos para desenvolver o que aprendemos.
+                </p>
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="../bootstrap/src/assets/card1.jpg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">UX DESIGN</h5>
-                        <p class="card-text">UX é isso isso e aquilo e usamos dessa e dessa forma em seu projeto.
-                            Design de experiencia é isso isso e aquilo.</p>
+                        <h5 class="card-title"> Senai Infocast </h5>
+                        <p class="card-text">Criação de uma nova homepage para o podcast da Escola de Informática do Senai-SP</p>
                     </div>
                     <!-- Botão para acionar modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
-                        Acesse
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo-1">
+                        Leia mais
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="modalExemplo-1" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Signista - Projeto Final</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel">Senai Infocast</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Projeto desenvolvido assim assim assado
+                                        Trabalho em equipe  que desenvolvemos a home page do Senai Infocast, para a Escola de Informática do Senai. Projeto tecnicamente desafiador, pois o cliente demandava a elaboração de um site a partir de um design complexo e moderno, levando em consideração os conceitos de Pixel Perfect e Responsividade Fluida. O grupo escolheu não utilizar bibliotecas externas de estilo e nem frameworks, para desenvolver do zero, utilizamos código em HTML, CSS, JavaScript para consumir a API utilizada pelo podcast e ao final do projeto subimos a aplicação no servidor do cliente.
+                                        <a>https://infocast-dev.azurewebsites.net/</a>
                                 </div>
+
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
                                 </div>
@@ -147,28 +154,28 @@
                 <div class="card">
                     <img class="card-img-top" src="../bootstrap/src/assets/card2.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">RESPONSIVIDADE</h5>
-                        <p class="card-text">Responsividade pe isso isso e aquilo. Usamos dessa e dessa forma para
-                            alavancar seu projeto.</p>
+                        <h5 class="card-title">Signista</h5>
+                        <p class="card-text">Projeto de conclusão de curso do bootcamp tecnológico {Reprogama} </p>
                     </div>
                     <!-- Botão para acionar modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo2">
                         Acesse
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="modalExemplo2" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Site M de Maravilhosas</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel2">Signista</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Projeto desenvolvido assim assim assado
+                                    Projeto desenvolvido e apresentado como conclusão do bootcamp {Reprograma}, criado em javascript vanilla o Signista sugere a experiência da sinastria online. A organização dos dados das combinações de signos é tratada através da função filter do ES6, retornando as diversas possibilidades de match.
+                                    <a>https://signista.netlify.com/</a> 
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -180,28 +187,27 @@
                 <div class="card">
                     <img class="card-img-top" src="../bootstrap/src/assets/card3.jpeg" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">ACESSIBILIDADE</h5>
-                        <p class="card-text">Acessibilidade é isso isso e aquilo. Ela serve para isso isso e mais isso.
-                            Será importante em seu projeto para isso.</p>
+                        <h5 class="card-title">Know Your Band</h5>
+                        <p class="card-text">Projeto desenvolvido no módulo Javascript Avançado, trata-se de um buscador de informações sobre bandas.</p>
                     </div>
                     <!-- Botão para acionar modal -->
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo3">
                         Acesse
                     </button>
 
                     <!-- Modal -->
-                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog"
+                    <div class="modal fade" id="modalExemplo3" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Site Mundo Gelado</h5>
+                                    <h5 class="modal-title" id="exampleModalLabel3">Know Your Band</h5>
                                     <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
                                 <div class="modal-body">
-                                    Projeto desenvolvido assim assim assado
+                                    Utilizando a API MusicBrainz e a API Google Imagens, criamos um sistema de buscador de dados e fotos sobre bandas. Utilizando a funcionalidade Promisses do JavaScript, fomos capazes de fazer requisições assíncronas para as APIs e tratar o retorno dessa busca na tela.
                                 </div>
                                 <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
@@ -251,7 +257,7 @@
     <!-- Footer -->
     <section class="footer">
         <nav id="nav-footer" class="navbar navbar-dark bg-dark">
-            <a id="nav-footer-link" class="nav-link" href="https://www.linkedin.com/in/barbara-aguilar/"><i
+            <a id="nav-footer-link" class="nav-link" href="https://www.linkedin.com/in/barbara-aguilar/" target="_blank"><i
                     class="fas fa-code"></i>
                 <p>codado com amor por Bárbara Aguilar</p>
             </a>
